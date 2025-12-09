@@ -30,11 +30,14 @@ hero:
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: 📚
+    title: 文档
+    details: 详细的文档，帮助你快速上手 SequoiaMC。
+    link: https://minecraft.net/zh-cn/
+  - icon: 🧩
+    title: 插件
+    details: 详细的插件文档，帮助你快速上手 SequoiaMC 插件。
+    link: https://minecraft.net/zh-cn/
+---
 ---
 
