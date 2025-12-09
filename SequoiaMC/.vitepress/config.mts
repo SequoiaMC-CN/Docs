@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  srcDir: "..\\Docs",
+  srcDir: "../Docs",
   
   title: "SequoiaMC 文档",
   description: "A Minecraft Server Docs",
