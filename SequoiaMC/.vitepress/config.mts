@@ -6,6 +6,7 @@ export default defineConfig({
   
   title: "SequoiaMC 文档",
   description: "A Minecraft Server Docs",
+  lang: 'zh-CN',
   base: '/', //网站部署的路径，默认根目录
   head: [
     ['link',{ rel: 'icon', href: '/logo.svg'}],
@@ -79,10 +80,16 @@ export default defineConfig({
     // 菜单  Menu
     sidebarMenuLabel: "菜单",
 
+    //本地搜索
+    search: {
+      provider: 'local',
+    },
+
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2025-2026 SequoiaMC'
-    }
-
+      copyright: 'Copyright © 2025-2026 SequoiaMC-CN | ICP备案号：<a href="https://beian.miit.gov.cn/" target="_blank">豫ICP备2025139441号-2</a>', 
+      // 自动更新时间
+      // copyright: `Copyright © 2023-${new Date().getFullYear()} 备案号：<a href="https://beian.miit.gov.cn/" target="_blank">京****号</a>`, 
+    },
   }
 })
