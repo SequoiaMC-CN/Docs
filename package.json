@@ -1,6 +1,7 @@
 {
   "devDependencies": {
-    "vitepress": "2.0.0-alpha.15"
+    "vitepress": "2.0.0-alpha.15",
+    "vitepress-plugin-comment-with-giscus": "^1.1.15"
   },
   "type": "module",
   "scripts": {
