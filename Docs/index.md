@@ -2,10 +2,22 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
+head:
+  - - meta
+    - name: description
+      content: SequoiaMC 文档
+  - - meta
+    - name: keywords
+      content: SequoiaMC Minecraft Docs 
+
+
 hero:
   name: "SequoiaMC 文档"
   text: "A Minecraft Server Docs"
   tagline: My great project tagline
+  image:
+    src: /logo.svg
+    alt: SequoiaMC
   actions:
     - theme: brand
       text: Markdown Examples
