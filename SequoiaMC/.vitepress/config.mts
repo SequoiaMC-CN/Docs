@@ -8,7 +8,7 @@ export default defineConfig({
   description: "A Minecraft Server Docs",
   base: '/', //网站部署的路径，默认根目录
   head: [
-    ['link',{ rel: 'icon', href: '/icon.png'}],
+    ['link',{ rel: 'icon', href: '/logo.svg'}],
   ],
   
   cleanUrls:true, //开启纯净链接
@@ -29,8 +29,8 @@ export default defineConfig({
       {
         text: '文档',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '使用文档', link: '/markdown-examples' },
+          { text: '常见问题', link: '/api-examples' }
         ]
       }
     ],

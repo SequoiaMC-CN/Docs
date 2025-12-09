@@ -9,6 +9,9 @@ head:
   - - meta
     - name: keywords
       content: SequoiaMC Minecraft Docs 
+  - - meta
+    - name: language
+      content: 'zh-CN'
 
 
 hero:
@@ -20,10 +23,10 @@ hero:
     alt: SequoiaMC
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: 使用文档
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: 常见问题
       link: /api-examples
 
 features:
